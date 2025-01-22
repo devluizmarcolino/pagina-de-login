@@ -12,8 +12,7 @@
    git clone https://github.com/devluizmarcolino/pagina-de-login
    ```
 
-2. **Estrutura dos arquivos**
-   Certifique-se que os arquivos estejam organizados da seguinte forma:
+2. Certifique-se que os arquivos estejam organizados da seguinte forma:
    ```
    .
    ├── index.html
