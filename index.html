@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luiz Henrique Marcolino">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <h2 class="login-title">Login</h2>
+        <form id="loginForm">
+            
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Seu e-mail">
+                <span class="error-message" id="emailError"></span>
+            </div>
+            
+            
+            <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Sua senha">
+                <span class="error-message" id="passwordError"></span>
+            </div>
+            
+            
+            <button type="submit" class="submit-btn">Entrar</button>
+            
+            <div class="success-message" id="successMessage">Login realizado com sucesso!</div>
+        </form>
+    </div>
+</body>
+</html>
